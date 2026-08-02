@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://tigerconnect.com/release-notes/all/product-feature-launches/
+# TigerConnect publishes dated product release notes per client platform
+# (Android / iOS / Web) plus product-feature-launch announcements. There is no
+# public developer API changelog because there is no public API surface; these
+# are end-user product release notes.
+scheme: per-platform-app-version
+current_version: null            # multiple concurrent client versions; no single API version
+release_notes: https://tigerconnect.com/release-notes/all/product-feature-launches/
+entries:
+  # Recent Android client releases discovered in the published release-notes index.
+  # Dates are not exposed in the index URLs and are left null rather than fabricated.
+  - platform: android
+    version: v9.12.67
+    date: null
+    url: https://tigerconnect.com/release-notes/android-v9-12-67/
+  - platform: android
+    version: v9.12.66
+    date: null
+    url: https://tigerconnect.com/release-notes/android-v9-12-66/
+  - platform: android
+    version: v9.12.65
+    date: null
+    url: https://tigerconnect.com/release-notes/android-v9-12-65/
+  - platform: android
+    version: v9.12.64
+    date: null
+    url: https://tigerconnect.com/release-notes/android-v9-12-64/

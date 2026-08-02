@@ -1,8 +1,15 @@
 aid: tigerconnect
 name: Tigerconnect
-description: 'Tigerconnect is a company surfaced as a portfolio company of norwest-venture-partners, shasta-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'TigerConnect is a healthcare clinical communication and collaboration
+  (CC&C) platform used by 7,000+ healthcare organizations to unify secure messaging,
+  clinical collaboration, alarm management, physician and nurse scheduling, patient
+  engagement, nurse call, and pre-hospital care-team coordination on one activation
+  layer. It integrates with 200+ medical devices and EHR systems and adds an AI
+  orchestration engine (CareConduit) that routes alerts and workflows to the right
+  clinical role at the right time. TigerConnect is recognized as a leader in the
+  2025 Gartner Magic Quadrant for Clinical Communications and Collaboration. The
+  company publishes end-user product release notes, an SLA, and legal terms, but
+  exposes no public developer API portal or OpenAPI at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/tigerconnect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +18,33 @@ x-backed-by:
 - shasta-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://tigerconnect.com/wp-content/uploads/2024/05/TigerConnect-white-logo.jpg
 tags:
 - Company
-- Unknown
+- Healthcare
+- Clinical Communication
+- Collaboration
+- Secure Messaging
+- Care Coordination
+- Patient Engagement
+- Alarm Management
+- Scheduling
+- Nurse Call
+- EHR Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,28 @@ maintainers:
 common:
 - type: Website
   url: https://tigerconnect.com
+- type: Blog
+  url: https://tigerconnect.com/resources/blog-articles/
+- type: Support
+  url: https://tigerconnect.com/contact/
+- type: TermsOfService
+  url: https://tigerconnect.com/legal/terms-of-service-agreement/
+- type: PrivacyPolicy
+  url: https://tigerconnect.com/privacy-notice/
+- type: ChangeLog
+  name: TigerConnect Release Notes
+  url: changelog/tigerconnect-changelog.yml
+- type: Lifecycle
+  name: TigerConnect Lifecycle & SLA
+  url: lifecycle/tigerconnect-lifecycle.yml
+- type: LLMsTxt
+  name: TigerConnect llms.txt
+  url: llms/tigerconnect-llms.txt
+- type: DomainSecurity
+  name: TigerConnect Domain Security
+  url: security/tigerconnect-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

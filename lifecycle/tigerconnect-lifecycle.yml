@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://tigerconnect.com/legal/service-level-agreement/
+# TigerConnect is a hosted clinical communication platform, not a public API
+# provider. It publishes a Service Level Agreement and dated product release
+# notes, but no public API versioning policy, deprecation policy, RFC 8594
+# Sunset support, or public status page were found.
+versioning:
+  scheme: per-platform-app-version
+  current: null
+  docs: https://tigerconnect.com/release-notes/all/product-feature-launches/
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: https://tigerconnect.com/legal/service-level-agreement/
+  uptime_target: null            # not published as a numeric target on the public page
+status_page: null                # no public status page found
+deprecated_operations: []
